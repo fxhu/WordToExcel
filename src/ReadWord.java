@@ -16,8 +16,8 @@ import org.openxmlformats.schemas.wordprocessingml.x2006.main.CTText;
 public class ReadWord {
     public static void main(String[] arg){
         String path = "C:\\Users\\mi\\Documents\\Tencent Files\\876672460\\FileRecv\\常安佳苑东侧.docx";
-        //readFromword(path);
-        writeToExcel();
+        readFromword(path);
+        //writeToExcel();
     }
 
     public static void readFromword(String filePath){
